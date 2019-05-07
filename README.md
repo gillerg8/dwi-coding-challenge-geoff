@@ -4,21 +4,27 @@ Take-home coding challenge for Direct Wines
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [yarn](https://yarnpkg.com/en/docs/install) to install the dependencies for this project.
 
 ```bash
-pip install foobar
+yarn
 ```
 
 ## Usage
 
-```python
-import foobar
+In order to run the local dev server using Parcel please run the following command
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+```bash
+yarn dev
 ```
+
+In order to run the build command using Parcel please run the following command
+
+```bash
+yarn build
+```
+
+After running the build command, you may see the build version of the app running by opening up the /dist/index.html file in the browser of your choice
 
 ## Contributing
 

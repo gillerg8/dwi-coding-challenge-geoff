@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { render } from 'react-dom';
 import ProductListing from './components/ProductListing';
 import ZipCodeLookup from './components/ZipCodeLookup';

@@ -36,9 +36,6 @@ const ProductListing = ({ responseCode }) => {
 					};
 				});
 				setProducts(productData);
-			})
-			.catch((err) => {
-				console.log('err', err);
 			});
 	}, []);
 

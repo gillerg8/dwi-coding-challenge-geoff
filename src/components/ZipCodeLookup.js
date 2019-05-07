@@ -63,8 +63,7 @@ const ZipCodeLookup = () => {
 						setDisplayMessage(false);
 					}
 				})
-				.catch((err) => {
-					console.log('err', err);
+				.catch(() => {
 					setDisplayMessage(false);
 				});
 		} else {
