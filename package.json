@@ -1,0 +1,29 @@
+{
+	"name": "dwi-coding-challenge-geoff",
+	"version": "1.0.0",
+	"description": "Take-home coding challenge for Direct Wines",
+	"main": "index.js",
+	"author": "Geoff Giller",
+	"license": "ISC",
+	"dependencies": {
+		"@emotion/core": "^10.0.10",
+		"@emotion/styled": "^10.0.10",
+		"parcel-plugin-clean-dist": "0.0.6",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6"
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.0.1",
+		"eslint": "^5.16.0",
+		"parcel-bundler": "^1.12.3",
+		"prettier": "^1.17.0"
+	},
+	"scripts": {
+		"dev": "parcel src/index.html --open",
+		"watch": "parcel watch src/index.html",
+		"prod": "parcel build src/index.html",
+		"format": "prettier --write \"src/**/*.{js,jsx}\"",
+		"format:check": "prettier --list-different \"src/**/*.{js,jsx}\"",
+		"lint": "eslint \"**/*.{js,jsx}\""
+	}
+}
